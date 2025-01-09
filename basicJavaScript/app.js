@@ -344,3 +344,125 @@ This is a multi-line comment
 // const myList = [];
 // myList.unshift(["laptops", 10], ["phones", 20], ["lcd", 30], ["tablet", 40], ["ipad", 50]);
 // console.log(myList);
+
+// Today 37 DSA challenges completed. Date: 04/01/2025` total 47 challenges completed.
+
+// 9/1/25
+
+// Write Reusable JavaScript with Functions
+// 48 Create a function called reusableFunction which prints the string Hi World to the dev console.
+// Call the function.
+
+// function reusableFunction() {
+//   console.log("Hi World");
+// }
+
+// reusableFunction();
+
+// Passing Values to Functions with Arguments
+// 49 Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+// Call the function with two numbers as arguments.
+
+// function functionWithArgs(num1, num2) {
+//   console.log(num1 + num2);
+// }
+// functionWithArgs(2 , 3);
+
+// Return a Value from a Function with Return
+// 50 Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value
+
+// function timesFive(num) {
+//   return num * 5;
+// }
+// const ans = timesFive(5);
+// console.log(ans);
+
+// Global Scope and Functions
+// 51
+
+// const myGlobal = 10;
+
+// function fun1() {
+//   oopsGlobal = 5;
+// }
+
+// function fun2() {
+//   let output = "";
+//   if (typeof myGlobal != "undefined") {
+//     output += "myGlobal: " + myGlobal;
+//   }
+//   if (typeof oopsGlobal != "undefined") {
+//     output += " oopsGlobal: " + oopsGlobal;
+//   }
+//   console.log(output);
+// }
+
+// fun2();
+
+//
+// 52 Declare a local variable myVar inside myLocalScope and run the tests.
+
+// function myLocalScope() {
+//   const myVar = 10;
+//   console.log("inside myLocalScope", myVar);
+// }
+// myLocalScope();
+// console.log("outside myLocalScope", myVar);
+
+// Global vs. Local Scope in Functions
+// 53 Add a local variable to myOutfit function to override the value of outerWear with the string sweater.
+
+// const outerWear = "T-Shirt";
+// function myOutfit() {
+//   const outerWear = "sweater";
+//   return outerWear;
+// }
+
+// let ans = myOutfit();
+// console.log(ans);
+
+// Understanding Undefined Value returned from a Function
+// 54 Create a function addFive without any arguments. This function adds 5 to the sum variable, but its returned value is undefined.
+
+// let sum = 0;
+
+// function addThree() {
+//   sum = sum + 3;
+// }
+
+// function addFive() {
+//   sum += 5;
+// }
+
+// addThree();
+// let ans = addFive();
+// console.log(ans);
+// console.log(sum);
+
+// Assignment with a Returned Value
+// 55 Call the processArg function with an argument of 7 and assign its return value to the variable processed.
+
+// let processed = 0;
+
+// function processArg(num) {
+//   return (num + 3) / 5;
+// }
+
+// processed = processArg(7);
+// console.log(processed);
+
+//  Stand in Line
+// 56 Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+// Add the number to the end of the array, then remove the first element of the array.
+// The nextInLine function should then return the element that was removed.
+
+// function nextInLine(arr, item) {
+//   arr.push(item);
+
+//   return arr.shift();
+// }
+
+// const ans = nextInLine([1, 2, 3, 4, 5], 6);
+// console.log(ans);
+
+//  Today 9 DSA challenges completed. Date: 09/01/2025` total 56 challenges completed.
